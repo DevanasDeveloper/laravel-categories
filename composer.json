@@ -5,7 +5,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Vendor\\Categories\\": "src/"
+             "Vendor\\Categories\\App\\": "src/app/",
+             "Vendor\\Categories\\": "src/"
         }
     },
     "extra": {
