@@ -1,5 +1,5 @@
 {
-    "name": "vendor/categories",
+    "name": "devanasdeveloper/laravel-categories",
     "description": "A Laravel package for category management",
     "type": "library",
     "license": "MIT",
@@ -15,14 +15,8 @@
             ]
         }
     },
-    "require": {},
-
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/DevanasDeveloper/laravel-categories.git"
-        }
-    ],
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^10.0"
+    }
 }
